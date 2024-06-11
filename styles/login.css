@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+.login__form__container{
+    display: flex;
+    justify-content: center;
+    font-family:sans-serif;
+}
+
+body{
+    background-color:rgb(45, 108, 218);
+    margin:0px;
+    font-family:'Roboto',sans-serif;
+}
+
+.login__form{
+    margin-top:30px;
+    padding:0px 30px 30px 30px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:300px;
+    background-color: white;
+}
+
+@media only screen and (max-width:400px){
+    .login__form{
+        width:70%;
+    }
+}
+
+.login__text{
+    text-align: center;
+    font-size: 24px;
+    font-weight:bold;
+    color:rgb(108, 107, 107);
+    border-bottom:2px solid rgb(0, 149, 255);
+    padding-bottom:5px;
+}
+
+.input__field{
+    border:solid 1px rgb(198, 198, 198);
+    border-radius:4px;
+    padding:0.8em;
+}
+
+.input__field:focus{
+    outline:none;
+}
+
+.input__field__name{
+    color:rgb(158, 158, 158);
+    font-size:14px;
+}
+
+.input__submit__button{
+    margin-top:0.5vh;
+    border-radius:20px;
+    border:none;
+    color:rgb(255, 255, 255);
+    background-color: rgb(45, 108, 218);
+    padding:10px 30px;
+    margin-bottom:10px;
+}
+
+.input__submit__button:hover{
+    background-color: rgb(79, 135, 232);
+    cursor:pointer;
+}
+
+.input__submit__signup__button{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.login__button__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot__password{
+    font-size:12px;
+    color:rgb(0, 149, 255);
+    padding-top:10px;
+    align-self: center;
+}
+
+.forgot__password:hover{
+    cursor:pointer;
+}
+
+.login__signup__redirect{
+    font-size:12px;
+}
+
+.login__signup__redirect__link{
+    text-decoration: none;
+    color:rgb(0, 149, 255);
+}
+
+.line__{
+    width:100px;
+    height: 0px;
+    display: inline-block;
+    align-items: center;
+}
+
+.line__text{
+    font-family:'Roboto';
+    font-size:12px;
+    display: flex;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+
+.login-with-google-btn {
+    transition: background-color .3s, box-shadow .3s;
+      
+    padding: 12px 16px 12px 42px;
+    border: none;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    width:70%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+    
+    &:hover {
+      box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+      cursor:pointer;
+    }
+  }
+  

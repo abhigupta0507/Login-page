@@ -1,0 +1,41 @@
+.index__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:16px 30px 14px 30px;
+  font-family: sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px -5px;
+  background-color: white;
+}
+
+.index__welcome__message {
+  font-size: 16px;
+}
+
+.nav__link {
+  font-size: 16px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: black;
+  color: rgb(3, 154, 154);
+  font-weight: 500;
+}
+
+.nav__link:hover {
+  cursor: pointer;
+  color: rgb(2, 198, 198);
+}
+
+.nav__link__container {
+  display: flex;
+  column-gap: 2vw;
+}
+
+.dashboard {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5vh;
+}
+
